@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<div>
+    <form action="." method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button>Adicionar</button>
+    </form>
+</div>
+{% endblock %}
