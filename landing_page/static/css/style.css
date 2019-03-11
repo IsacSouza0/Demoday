@@ -3,18 +3,16 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header h1 {
+h2 a{
     text-decoration: none;
-}
-
-h2{
     margin-left: 800px;
     color: #99d9ea;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
 }
 
-h1{
+h1 a{
+    text-decoration: none;
     color: #99d9ea;
     margin-left: 10px;
     font-family: 'Merriweather Sans', sans-serif;
@@ -102,6 +100,7 @@ img{
     align-content: space-around;
 }
 .header-1{
+    text-decoration: none;
     background-color: #000000;
     margin:0;
     height: auto;
