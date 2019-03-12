@@ -1,6 +1,14 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
+    overflow-x: hidden;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
 }
 
 h2 a{
@@ -24,44 +32,43 @@ h1 a{
 /* .nav-menu-hamburguer{
     position: absolute;
 } */
-img{
-    height: auto;
-    width: 100%;
-}
+
 .logo{
     height: auto;
     width: 150px;
 
 }
 .icones-1{
-    width: 40px;
+    width: 50px;
     margin:0;
     height: auto;
 }
 .icones-2{
-    width: 60px;
+    width: 55px;
     margin: 0;
     height: auto;
 }
 .icones-3{
-    width: 60px;
+    width:50px;
     margin: 0;
     height: auto;
 }
 .icones-4{
-    width: 80px;
+    width: 40px;
     margin: 0;
-    height: auto
+    height: auto;
+    margin-bottom: 6px;
 }
 
 .links{
-    padding: 200px;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 50px;
     display: flex;
     align-items: center ;
-    justify-content: space-around;
+    justify-content: center;
+    margin-bottom: -7px;
+    margin-top: 15px;
 }
 .link-1{
     display: flex;
@@ -162,8 +169,13 @@ img{
 .visible{
     transform: translateX(0);
 }
-.uber{
+.maps{
     width: 100px;
+    margin: 0;
+    height: auto;
+}
+.uber{
+    width: 90px;
     margin: 0;
     height: auto;
 }
@@ -183,6 +195,7 @@ img{
     display: flex;
     align-items: center;
     justify-content:space-around;
+    margin-bottom: 22px;
 }
 .botao{
     align-items: center;
@@ -190,4 +203,70 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.conteudo-home{
+    margin: 0 15px;
+}
+
+.texto-sobre{
+    height: 15vh;
+    padding-top: 10px;
+    margin: 0 15px;
+
+}
+.texto-home{
+    padding: 0px 70px;
+    margin: 0 15px;
+}
+
+.imagem1{
+    height: auto;
+    width:720px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-left: 300px;
+}
+.imagem1 img{
+    width: 50%;
+}
+.imagem2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.imagem2 img{
+    width: 40%;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+}
+.contato{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    padding: 2px;
+    width: 50%;
+}
+.contato a{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.imgHeader img {
+    width: 65%;
+}
+
+.imagembaixo {
+    height: auto;
+    width: 100%;
 }

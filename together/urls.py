@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path
 from landing_page.views import retorna_index
 from cadastro.views import novo_cadastro
+from sobre.views import retorna_sobre
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', retorna_index),
     path('cadastro/', novo_cadastro),
+    path('sobre/', retorna_sobre),
 ]
