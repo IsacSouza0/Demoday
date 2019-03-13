@@ -23,8 +23,8 @@ from contato.views import retorna_contato
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', retorna_index),
-    path('cadastro/', novo_cadastro),
-    path('sobre/', retorna_sobre),
-    path('contato/', retorna_contato),
+    path('', retorna_index, name='home'),
+    path('cadastro/', novo_cadastro, name='cadastro'),
+    path('sobre/', retorna_sobre, name='sobre'),
+    path('contato/', retorna_contato, name='contato'),
 ]

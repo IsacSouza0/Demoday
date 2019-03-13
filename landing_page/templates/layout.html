@@ -1,7 +1,7 @@
 {% load staticfiles %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
         <div class="header-1">
             <!-- <h1>Together</h1> -->
             <h1><a href="/">Together</a></h1>
-            <h2 class="botao"><a href="cadastro/">Cadastre-se</a></h2>
+            <h2 class="botao"><a href="{% url 'cadastro' %}">Cadastre-se</a></h2>
 
             <div class="menu-hamburguer">
                 <span class="traco traco-1"></span>
@@ -28,9 +28,9 @@
             </div>
         </div>
         <nav class="nav-menu-hamburguer">
-            <a href="">Home</a>
-            <a href="sobre">Sobre</a>
-            <a href="contato">Contato</a>
+            <a href="{% url 'home'%}">Home</a>
+            <a href="{% url 'sobre' %}">Sobre</a>
+            <a href="{% url 'contato' %}">Contato</a>
         </nav>
     </header>
 
@@ -48,6 +48,35 @@
                 src="https://cdn.icon-icons.com/icons2/495/PNG/512/location-pin-4_icon-icons.com_48548.png">
             <p>Bela Vista, São Paulo, Av.Paulista 1374</p>
 
+        </div>
+        <div class="links">
+
+            <div class="link-1">
+                <a href="https://mobile.twitter.com/Togethe21520714" target="_blank"><img class="icones-3"
+                        src="https://png.pngtree.com/element_our/md/20180301/md_5a9797d302f17.png">
+                </a>
+            </div>
+            <div class="link-2">
+
+                <a href="mailto:togetherther2@gmail.com"> <img class="icones-4"
+                        src="https://cdn.icon-icons.com/icons2/1011/PNG/512/Gmail_icon-icons.com_75706.png">
+
+                </a>
+            </div>
+            <div class="link-3">
+
+                <a href="https://www.instagram.com/p/Bu1smEWBtc2/?utm_source=ig_share_sheet&igshid=1d3bs6pjg4dgb"
+                    target="_blank"> <img class="icones-2"
+                        src="https://png.pngtree.com/element_our/md/20180301/md_5a9797d18f418.png">
+
+                </a>
+
+            </div>
+            <div class="link-4">
+                <a href="https://www.facebook.com/Together-257509788470747/" target="_blank"><img class="icones-1"
+                        src="https://i.pinimg.com/originals/57/98/53/5798533bb3f2a08ee3514f9c6f6e03be.png">
+                </a>
+            </div>
         </div>
     </footer>
 </body>
