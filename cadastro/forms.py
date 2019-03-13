@@ -7,5 +7,6 @@ class CadastroCriarForm(forms.ModelForm):
         fields = [
             'nome',
             'email',
-            # 'telefone',
+            # 'telefone', 
+            'descrição',
         ]

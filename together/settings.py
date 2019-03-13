@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'landing_page',
     'cadastro',
     'sobre',
+    'contato',
 ]
 
 MIDDLEWARE = [
