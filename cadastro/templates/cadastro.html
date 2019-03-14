@@ -2,9 +2,18 @@
 {% load staticfiles %}
 
 {% block content %}
-<div class="forms">
+<div class="textcada">
+    <p>
+        Por que existe cadastro no together?</p>
+     <p>O cadastro no together serve para que você(usuário) faça suas atualizações na plataforma, contando os relatos
+        vivenciados pela sua pessoa ou com terceiros , além de ganhar cupom de desconto pelos aplicativos privados, que
+        por sua vez está vinculado conosco.
+    </p>
+</div>
+
+<div class="forms flex">
     <form action="." method="POST">
-        <img src="{{ item.foto.url }}" alt="*Foto de Perfil {{item.nome}}" > e Email é opcional*
+        <img src="{{ item.foto.url }}" alt="*Foto de Perfil {{item.nome}}" >é opcional*
         {% csrf_token %}
         {{ form.as_p }}
         <button>Adicionar</button>

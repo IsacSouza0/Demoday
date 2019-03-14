@@ -68,7 +68,7 @@ h1 a{
 
 .links{
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     height: auto;
     display: flex;
     align-items: center ;
@@ -177,17 +177,17 @@ h1 a{
     transform: translateX(0);
 }
 .maps{
-    width: 100px;
+    width: 60px;
     margin: 0;
     height: auto;
 }
 .uber{
-    width: 90px;
+    width: 60px;
     margin: 0;
     height: auto;
 }
 .noventa{
-    width: 90px;
+    width: 60px;
     margin: 0;
     height: auto;
 }
@@ -203,6 +203,7 @@ h1 a{
     align-items: center;
     justify-content:space-around;
     margin-bottom: 22px;
+
 }
 .botao{
     align-items: center;
@@ -220,11 +221,13 @@ h1 a{
     height: 15vh;
     padding-top: 10px;
     margin: 0 15px;
+    font-family: 'Artifika', serif;
 
 }
 .texto-home{
     padding: 0px 70px;
     margin: 0 15px;
+    font-family: 'Artifika', serif;
 }
 
 .imagem1{
@@ -254,6 +257,7 @@ h1 a{
 .text-ass{
     margin: 0 15px;
     padding-top: 23px;
+    font-family: 'Artifika', serif;
 }
 
 footer{
@@ -273,7 +277,7 @@ footer{
 }
 .contato a{
     color:white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Artifika', serif;
     font-size: 15px;
     text-decoration: none;
 }
@@ -289,7 +293,7 @@ footer{
 }
 
 .texto-contato h1 {
-    font-family: 'Montserrat';
+    font-family: 'Artifika', serif;
     display: flex;
     color: black ;
     align-items: center;
@@ -297,7 +301,7 @@ footer{
 }
 
 .texto-contato p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Artifika', serif;
     display: flex;
     color: black;
     font-size: 25px;
@@ -318,11 +322,13 @@ img{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 5pX groove black;
+    border: 15pX groove midnightblue;
     padding-left: 90px;
     padding-right: 90px;
+    padding-top: 10px;
+    color:#99d9ea;
+    background-color: black;
 }
-
 .img-footer{
     height: auto;
     width: 50px;
@@ -331,7 +337,7 @@ img{
 }
 .p-text{
     color: aliceblue;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Artifika', serif;
     font-size: 15px;
    align-items: center;
    justify-content: center;
@@ -344,8 +350,56 @@ img{
 }
 .text6{
     margin: 0 15px;
+   font-family:'Artifika', serif;
 }
 
+
 .forms{
+    padding-bottom: 10px;
+    padding-top:10px;
+    border:15px groove midnightblue;
+    margin: 100px 250px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(8, 7, 7); */
+    color: black;
+}
+
+.forms input{
+    /* margin:0 15px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    border-radius: 10px;
+    height: 30px;
+    font-size: 12pt;
+    
+}
+
+.forms textarea {
+    resize: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 12pt;
+    
+}
+
+.textcada{
     margin:0 15px;
 }
+
+.campanha{
+    margin: 0 15px;
+    font-family: 'Artifika', serif;
+} 
+.text2 p{
+    color: blue;
+}
+/* .fundo{ */
+     /* background-color: black;
+     padding-bottom: 5px;
+     padding-top: 5px;
+     margin: 100px 100px;
+     margin-bottom: 10px;
+} */
+/* @media{max-width: ;} */
