@@ -402,4 +402,51 @@ img{
      margin: 100px 100px;
      margin-bottom: 10px;
 } */
-/* @media{max-width: ;} */
+@media (min-width: 425px){
+    header {
+        display: block;
+    }
+
+    .header-1{
+        display: flex;
+         width: auto;
+         height: 90px;
+         padding: 0;
+         /* margin-left: 10px; */
+         /* margin-top: 10px; */
+    }
+    
+
+    .header-1 h2{
+         display: flex;
+         /* width: auto; */
+         height: 90px;
+         padding: 0;
+    }
+
+
+    
+
+    
+    /* .footers{
+         display: flex; */
+         /* width: auto;
+         height: 90px;
+         padding: 0; */
+         /* margin-left: 10px;
+         margin-top: 10px; */
+    
+    /* .contato a{
+         display: block;
+         width: auto;
+         height: 90px;
+         padding: 0; */
+    }   
+    /* .p-text p{
+         display: flex;
+         width: auto;
+         height: 90px;
+         padding: 0;
+         
+    }
+} */

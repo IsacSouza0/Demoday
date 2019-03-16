@@ -28,7 +28,7 @@
                 <span class="traco traco-3"></span>
             </div>
         </div>
-        <nav class="nav-menu-hamburguer active">
+        <nav class="nav-menu-hamburguer">
             <a href="{% url 'home'%}">Home</a>
             <a href="{% url 'sobre' %}">Sobre</a>
             <a href="{% url 'contato' %}">Contato</a>
@@ -38,7 +38,7 @@
     {% block content %}
     {% endblock %}
 
-    <footer>
+    <footer class="footers">
         <nav class="contato">
             <a href="contato">Contato</a>
             <a href="">Email</a>
