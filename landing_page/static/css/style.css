@@ -113,6 +113,12 @@ h1 a{
     align-items: center;
     align-content: space-around;
 }
+/* .link-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+} */
 .header-1{
     text-decoration: none;
     background-color: #000000;
@@ -313,6 +319,10 @@ img{
     height: auto;
     width: 70px;
 }
+.img10{
+    height: auto;
+    /* width: 70px; */
+}
 .img-contato{
     align-items: center;
     
@@ -355,20 +365,26 @@ img{
 
 
 .forms{
+    display: flex;
     padding-bottom: 10px;
     padding-top:10px;
     border:15px groove midnightblue;
     margin: 100px 250px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     /* background-color: rgb(8, 7, 7); */
     color: black;
 }
+img{
+   
+    height: auto;
+}
 
 .forms input{
-     margin:0 15px; 
+    /* margin:0 15px; 
     align-items: center; 
-    justify-content: center; 
+    justify-content: center;  */
     border-radius: 10px;
     height: 30px;
     font-size: 12pt;
@@ -385,8 +401,8 @@ img{
 }
 
 .textcada{
-    margin:0 15px;
-}
+    margin: 0 15px;
+    font-family: 'Artifika', serif;}
 
 .campanha{
     margin: 0 15px;
@@ -395,13 +411,11 @@ img{
 .text2 p{
     color: blue;
 }
-.fundo{
-      background-color: black;
-     padding-bottom: 5px;
-     padding-top: 5px;
-     margin: 100px 100px;
-     margin-bottom: 10px;
-} 
+
+/* .textcads{
+    margin: 0 15px;
+    font-family: 'Artifika', serif; */
+/* } */
 @media (min-width: 425px){
     header {
         display: block;
