@@ -13,7 +13,7 @@
 <form action="." method="POST">
 
     <div class="forms">
-       <p class="img10"href=""> <img src="{{ item.foto.url }}" alt="*Foto de Perfil é opcional*{{item.nome}}"> </p>
+       <p class="img10"href=""> <img src="https://image.flaticon.com/icons/png/512/23/23716.png" alt="{{item.nome}}"> *Foto de Perfil é opcional*</p>
         {% csrf_token %}
         {{ form.as_p }}
         <button>Adicionar</button>

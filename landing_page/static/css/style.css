@@ -411,6 +411,9 @@ img{
 .text2 p{
     color: blue;
 }
+.img10 img{
+    width: 30px;
+}
 
 /* .textcads{
     margin: 0 15px;
